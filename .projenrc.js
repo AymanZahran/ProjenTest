@@ -12,6 +12,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   // devDeps: [],             /* Build dependencies for this module. */
   // packageName: undefined,  /* The "name" in package.json. */
 
+  
   python: {
     distName: 'acme.hello-jsii',
     module: 'acme.hello_jsii',
