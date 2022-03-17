@@ -1,5 +1,6 @@
 {
   "name": "aymanzahranpackage",
+  "description": "This package is for Projen Demo",
   "repository": {
     "type": "git",
     "url": "https://github.com/AymanZahran/ProjenTest.git"

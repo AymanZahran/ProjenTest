@@ -8,16 +8,17 @@ const project = new awscdk.AwsCdkConstructLibrary({
   repositoryUrl: 'https://github.com/AymanZahran/ProjenTest.git',
 
   // deps: [],                /* Runtime dependencies of this module. */
-  // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],             /* Build dependencies for this module. */
 
-  release: true,
-  releaseBranches: 'master',
-  releaseEveryCommit: true,
+  description: 'This package is for Projen Demo',
+  docgen: true,
 
   // Publish to Npm
+  release: true,
   releaseToNpm: true,
-  packageName: "aymanzahranpackage",
+  packageName: 'aymanzahranpackage',
+  releaseBranches: 'master',
+  releaseEveryCommit: true,
 
   // // Publish to Maven
   // publishToMaven: {
@@ -25,7 +26,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   //   mavenArtifactId: '<your_package_target_id>',
   //   javaPackage: '<your_java_package>',
   // },
-  
+
   // Publish to Pypi
   publishToPypi: {
     distName: 'aymanzahrandist',

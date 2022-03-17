@@ -4,12 +4,12 @@
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### Hello <a name="Hello" id="ProjenTest.Hello"></a>
+### Hello <a name="Hello" id="aymanzahranpackage.Hello"></a>
 
-#### Initializers <a name="Initializers" id="ProjenTest.Hello.Initializer"></a>
+#### Initializers <a name="Initializers" id="aymanzahranpackage.Hello.Initializer"></a>
 
 ```typescript
-import { Hello } from 'ProjenTest'
+import { Hello } from 'aymanzahranpackage'
 
 new Hello()
 ```
@@ -23,11 +23,11 @@ new Hello()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#ProjenTest.Hello.sayHello">sayHello</a></code> | *No description.* |
+| <code><a href="#aymanzahranpackage.Hello.sayHello">sayHello</a></code> | *No description.* |
 
 ---
 
-##### `sayHello` <a name="sayHello" id="ProjenTest.Hello.sayHello"></a>
+##### `sayHello` <a name="sayHello" id="aymanzahranpackage.Hello.sayHello"></a>
 
 ```typescript
 public sayHello(): string
