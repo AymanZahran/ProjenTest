@@ -12,15 +12,30 @@ const project = new awscdk.AwsCdkConstructLibrary({
   // devDeps: [],             /* Build dependencies for this module. */
   // packageName: undefined,  /* The "name" in package.json. */
 
+  release: true,
+  releaseBranches: 'master',
+  releaseEveryCommit: true,
 
-  python: {
-    distName: 'acme.hello-jsii',
-    module: 'acme.hello_jsii',
+  // Publish to Npm
+  releaseToNpm: true,
+
+  // // Publish to Maven
+  // publishToMaven: {
+  //   mavenGroupId: '<your_package_group_id',
+  //   mavenArtifactId: '<your_package_target_id>',
+  //   javaPackage: '<your_java_package>',
+  // },
+  
+  // Publish to Pypi
+  publishToPypi: {
+    distName: 'aymanzahrandist',
+    module: 'aymanzahranmod',
   },
 
-  publishToPypi: {
-    distName: 'MyDist',
-    module: 'MyModule',
+  // Publish to Nugget
+  publishToNuget: {
+    dotNetNamespace: 'aymanorg.aymanns',
+    packageId: 'aymanpackage.aymanpackagename',
   },
 });
 project.synth();
