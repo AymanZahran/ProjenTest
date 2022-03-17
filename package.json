@@ -116,8 +116,8 @@
     "outdir": "dist",
     "targets": {
       "python": {
-        "distName": "acme.hello-jsii",
-        "module": "acme.hello_jsii"
+        "distName": "MyDist",
+        "module": "MyModule"
       }
     },
     "tsc": {
