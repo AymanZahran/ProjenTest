@@ -10,7 +10,6 @@ const project = new awscdk.AwsCdkConstructLibrary({
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],             /* Build dependencies for this module. */
-  // packageName: undefined,  /* The "name" in package.json. */
 
   release: true,
   releaseBranches: 'master',
@@ -18,6 +17,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
 
   // Publish to Npm
   releaseToNpm: true,
+  packageName: "aymanzahranpackage",
 
   // // Publish to Maven
   // publishToMaven: {
